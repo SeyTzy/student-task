@@ -195,7 +195,7 @@ body {
   z-index: 1015;
 }
 
-/* Modal Custom Backdrop */
+/* Modal Dialog & Overlay */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -203,12 +203,16 @@ body {
   right: 0;
   bottom: 0;
   background: rgba(15, 23, 42, 0.5);
-  backdrop-filter: blur(2px);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 1050;
   padding: 1rem;
+}
+
+.modal-content {
+  background-color: #ffffff !important;
+  background: #ffffff !important;
 }
 
 /* Toast Container */

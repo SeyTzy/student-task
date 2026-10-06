@@ -70,9 +70,9 @@ const TaskDetailModal = ({ isOpen, onClose, task, onEdit }) => {
         style={{ maxWidth: '600px' }}
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="modal-content shadow-lg border-0 rounded-3 overflow-hidden">
+        <div className="modal-content bg-white shadow-lg border-0 rounded-3 overflow-hidden">
           {/* Header */}
-          <div className="modal-header bg-light border-bottom py-3 px-4 d-flex justify-content-between align-items-center">
+          <div className="modal-header bg-white border-bottom py-3 px-4 d-flex justify-content-between align-items-center">
             <div className="d-flex align-items-center gap-2">
               <span className="badge bg-secondary-subtle text-secondary border">
                 Task #{task.id}
@@ -88,7 +88,7 @@ const TaskDetailModal = ({ isOpen, onClose, task, onEdit }) => {
           </div>
 
           {/* Body */}
-          <div className="modal-body p-4">
+          <div className="modal-body bg-white p-4">
             <h4 className="fw-bold text-dark mb-3">{task.title}</h4>
 
             {/* Badges Bar */}
@@ -156,7 +156,7 @@ const TaskDetailModal = ({ isOpen, onClose, task, onEdit }) => {
           </div>
 
           {/* Footer */}
-          <div className="modal-footer bg-light border-top py-3 px-4 d-flex justify-content-between">
+          <div className="modal-footer bg-white border-top py-3 px-4 d-flex justify-content-between">
             <button
               type="button"
               className="btn btn-outline-secondary btn-sm"

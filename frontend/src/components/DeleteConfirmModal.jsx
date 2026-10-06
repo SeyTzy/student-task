@@ -10,7 +10,7 @@ const DeleteConfirmModal = ({ isOpen, onClose, onConfirm, taskTitle, loading = f
         style={{ maxWidth: '440px' }}
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="modal-content shadow-lg border-0 rounded-3 overflow-hidden text-center p-4">
+        <div className="modal-content bg-white shadow-lg border-0 rounded-3 overflow-hidden text-center p-4">
           <div
             className="rounded-circle bg-danger-subtle text-danger mx-auto d-flex align-items-center justify-content-center mb-3"
             style={{ width: '56px', height: '56px' }}

@@ -72,9 +72,9 @@ const TaskModal = ({ isOpen, onClose, onSave, task = null, loading = false }) =>
         style={{ maxWidth: '540px' }}
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="modal-content shadow-lg border-0 rounded-3 overflow-hidden">
+        <div className="modal-content bg-white shadow-lg border-0 rounded-3 overflow-hidden">
           {/* Header */}
-          <div className="modal-header bg-light border-bottom py-3 px-4">
+          <div className="modal-header bg-white border-bottom py-3 px-4">
             <h5 className="modal-title fw-bold text-dark fs-5">
               {task ? 'Edit Task' : 'Create New Task'}
             </h5>
@@ -89,7 +89,7 @@ const TaskModal = ({ isOpen, onClose, onSave, task = null, loading = false }) =>
 
           {/* Form */}
           <form onSubmit={handleSubmit}>
-            <div className="modal-body p-4">
+            <div className="modal-body bg-white p-4">
               {/* Title */}
               <div className="mb-3">
                 <label className="form-label fw-semibold small text-muted">
@@ -179,7 +179,7 @@ const TaskModal = ({ isOpen, onClose, onSave, task = null, loading = false }) =>
             </div>
 
             {/* Footer */}
-            <div className="modal-footer bg-light border-top py-3 px-4">
+            <div className="modal-footer bg-white border-top py-3 px-4">
               <button
                 type="button"
                 className="btn btn-outline-secondary btn-sm px-3"
