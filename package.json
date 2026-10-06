@@ -1,0 +1,21 @@
+{
+  "name": "student-task-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack Student Task Management System with React, Express, and PostgreSQL",
+  "private": true,
+  "scripts": {
+    "init-db": "npm --prefix backend run init-db",
+    "backend": "npm --prefix backend run dev",
+    "backend:start": "npm --prefix backend start",
+    "frontend": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "postgresql",
+    "task-manager"
+  ],
+  "author": "",
+  "license": "ISC"
+}
