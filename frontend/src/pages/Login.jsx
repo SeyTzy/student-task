@@ -167,7 +167,7 @@ const Login = () => {
             </form>
 
             {/* Demo Helper */}
-            <div className="mt-4 pt-3 border-top text-center">
+            {/* <div className="mt-4 pt-3 border-top text-center">
               <button
                 type="button"
                 className="btn btn-sm btn-outline-secondary d-inline-flex align-items-center gap-1 py-1 px-3"
@@ -176,7 +176,7 @@ const Login = () => {
                 <FaInfoCircle />
                 <span>Fill Demo Credentials</span>
               </button>
-            </div>
+            </div> */}
 
             {/* Register Link */}
             <div className="text-center mt-3">
